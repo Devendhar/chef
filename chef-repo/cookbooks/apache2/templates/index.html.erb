@@ -1,0 +1,8 @@
+<html>
+ <body>
+  <h1> Welcome to <%= node['company'] %> </h1>
+  <h2> Hello from <%= node['fqdn'] %> </h2>
+  <p> This server has <%= node['memory']['total'] .to_i / 1024 %> MB memory. Added some content to homepage and updated metadata.rb file with version 0.1.1 for demonstration </p>
+  <p> This is version 0.2.0 of the cookbook! added to demonstrate environments like Development and Prod </p>
+ </body>
+</html>
