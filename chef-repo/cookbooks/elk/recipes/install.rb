@@ -7,3 +7,7 @@
 package node['elk']['packages'] do
 	action :install
 end
+
+package node['elk']['filebeat'] do
+	action :install
+end

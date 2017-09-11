@@ -7,3 +7,4 @@
 include_recipe 'java'
 include_recipe 'elk::configure'
 include_recipe 'elk::install'
+include_recipe 'elk::service'
